@@ -1,0 +1,28 @@
+.contact-us {
+  padding: 30px;
+  margin-bottom: 40px;
+  background: #e0e0e0;
+  border-left:  10px solid #0099ff; 
+  &__caption {
+    width: 60%;
+  }
+  &__title {
+    margin-bottom: 10px;
+    font-size: 2.25em;
+    font-weight: 100;
+    line-height: 1em;
+    color: #333333;
+  }
+  &__btn {
+    text-transform: uppercase;
+    background: #0099ff;
+    font-size: 1.625em;
+    color: #e2dede;
+    padding: 34px 15px;
+    border-radius: 10px;
+    transition: background-color .4s;
+    &:hover {
+      background-color: #0772b9;
+    }
+  }
+}

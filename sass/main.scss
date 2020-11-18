@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+input, button, textarea {
+	font-family: Georgia, sans-serif;
+	border: none;
+	outline: none;
+}
+textarea {
+	resize: vertical;
+}
+button {
+	cursor: pointer;
+}
+body {
+	font-family: Georgia, sans-serif;
+	line-height: 1.5rem;
+	font-size: 100%;
+}
+.page-wrapper {    
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.float-right {
+	float: right;
+}

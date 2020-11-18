@@ -1,0 +1,36 @@
+.content {
+  padding: 40px 0;
+  &__block {
+    width: 50%;
+    padding: 0 15px;
+  }
+  &__img {
+    width: 100%;
+  }
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article-preview {
+  width: 50%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  &__img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 1em;
+    font-weight: 100;
+    color: #0099ff;
+    margin-bottom: 15px;
+  }
+  &__text {
+    font-size: .8125em;
+    line-height: 1.4;
+    color: #444;
+  }
+}
